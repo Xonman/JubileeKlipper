@@ -8,7 +8,7 @@ The exact Jubilee3d setup this config is maintained for is:
 - X/Y plugged into X/Y, REL geared stepper plugged into Z, ZZZ plugged into E2/3/5
 - 2x extruders plugged into E0/1, 2x extruders using CAN toolboards (1x Mellow SHT-36, 1x Huvud 0.61)
 - Thermostatic fans on all extruders using Fan0/1/3 and an MCU fan on Fan2 limited to 40%
-- A single part fun on FAN7 - this is to use a single Berd air pump for all tools execpt one (tools/crew-white.cfg)
+- One part fan (a berd-air setup) is used for all tools except `crew-white` which uses it's own fan
 
 ## Tool posts
 The philosophy of this config is to separate tool post and extruder. This is intended to allow for swapping tools in and out from each physical tool location without requiring huge rework.
